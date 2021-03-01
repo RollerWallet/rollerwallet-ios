@@ -1,0 +1,783 @@
+"coin.BTC" = "Bitcoin";
+"coin.BCH" = "Bitcoin Cash";
+"coin.ETH" = "Ethereum";
+
+"button.ok" = "OK";
+"button.apply" = "Применить";
+"button.cancel" = "Отменить";
+"button.close" = "Закрыть";
+"button.done" = "Готово";
+"button.restore" = "Восстановить";
+"button.next" = "Вперед";
+"button.share" = "Поделиться";
+"button.sync" = "Синхронизировать";
+"button.paste" = "Вставить";
+"button.backup" = "Резервная копия";
+"button.copy" = "Скопировать";
+"button.back" = "Назад";
+"button.retry" = "Повторить";
+"button.report" = "Пожаловаться";
+"button.add" = "Добавить";
+"button.approve" = "Разрешить";
+"button.reject" = "Отклонить";
+"button.connect" = "Подключиться";
+
+"alert.copied" = "Скопировано";
+"alert.no_internet" = "Нет Интернета";
+"alert.wrong_amount" = "Неверная Сумма";
+"alert.no_fee" = "Неверная Комиссия";
+"alert.network_issue" = "Проблемы с сетью. Попробуйте еще раз";
+"alert.unknown_error" = "Неизвестная Ошибка";
+
+"action.loading" = "загрузка...";
+"placeholder.search" = "Поиск";
+
+"status" = "Статус";
+"connecting" = "Подключение...";
+"online" = "Доступен";
+"offline" = "Не доступен";
+"confirm" = "Подтвердить";
+"connect" = "Подключиться";
+
+"version" = "Версия %@";
+
+"n/a" = "Нет данных";
+
+"biometric_usage_reason" = "Разблокировать Кошелек";
+
+// Access Camera
+
+"access_camera.message" = "Unstoppable требуется доступ к вашей камере для сканирования QR-кода.
+
+Перейдите в \"Настройки\" - > Unstoppable и разрешите доступ к камере.";
+"access_camera.settings" = "Настройки";
+
+// Welcome
+
+"welcome.new_wallet" = "Создать Кошелек";
+"welcome.restore_wallet" = "Восстановить Кошелек";
+"welcome.privacy_settings" = "Настройки Приватности";
+
+// Restore
+
+"restore.title" = "Выберите Кошелек";
+"restore.enter_key" = "Введите Ключ";
+"restore.item_title" = "%@ Кошелек";
+"restore.words.description" = "Введите приватный ключ для кошелька %@, который состоит из %@ слов. Слова нужно ввести в правильном порядке и использовать пробелы между ними.";
+"restore.birthday_height.placeholder" = "Блок Создания (опционально)";
+"restore.birthday_height.description" = "Это определяет, где начать сканирование транзакций. Оставьте поле пустым, чтобы сканировать с самого начала, что займет некоторое время.";
+"restore.placeholder.account_name" = "Account Name";
+"restore.placeholder.private_key" = "Active Private Key";
+"restore_error.words_count" = "Неправильное количество слов. Должно быть: %@. Вы указали: %@";
+"restore.checksum_error" = "Неверная контрольная сумма";
+
+// Coin Settings
+
+"coin_settings.derivation.description.bip44" = "Старые";
+"coin_settings.derivation.description.bip49" = "Популярные";
+"coin_settings.derivation.description.bip84" = "Новые";
+"coin_settings.derivation.starts_with" = "начинается с %@...";
+"coin_settings.derivation.description_create" = "Этот параметр определяет формат адреса Bitcoin в этом кошельке. Мы рекомендуем использовать BIP49.";
+"coin_settings.derivation.description_restore" = "Выберите формат адреса для Bitcoin в кошельке, который вы пытаетесь восстановить.";
+"coin_settings.title" = "Настройки Блокчейна";
+"coin_settings.sync_mode.title" = "Источник Восстановления";
+"coin_settings.sync_mode.fast.description" = "0-2 часа (рекомендуется)";
+"coin_settings.sync_mode.slow.description" = "1-24 часа";
+"coin_settings.sync_mode.description" = "Ссылки на источники API: \nbtc.horizontalsystems.xyz/apg\ndash.horizontalsystems.xyz/apg\nbch.horizontalsystems.xyz/apg";
+"coin_settings.bitcoin_cash_coin_type.title.type0" = "Legacy";
+"coin_settings.bitcoin_cash_coin_type.title.type145" = "Новый";
+"coin_settings.bitcoin_cash_coin_type.description.type0" = "Старые кошельки (до августа 2017 г.)";
+"coin_settings.bitcoin_cash_coin_type.description.type145" = "Новые кошельки";
+"sync_mode.from_blockchain" = "Из Блокчейна";
+"blockchain_settings.change_alert.title" = "Формат Адреса";
+"blockchain_settings.change_alert.content" = "После того, как данное изменение вступит в силу, кошелек должен будет повторно синхронизироваться с блокчейном %@.\n\nПри изменении формата адреса для %@ текущий баланс и история транзакций больше не будут отображаться. При возвращении предыдущих настроек баланс и история восстановятся после того, как кошелек повторно синхронизируется с блокчейном. Рекомендуем не менять настройки, если вы не уверены, что это такое.";
+"blockchain_settings.change_alert.action_button_text" = "Изменить на %@";
+"blockchain_settings.sync_mode_change_alert.content" = "После применения этого действия потребуется ресинхронизация приложения Unstoppable с Bitcoin, а также блокчейнами Bitcoin Cash и Dash в случае, если вы активировали любые из этих токенов. Это не повлияет на ваш баланс или транзакции.\n\nМы не рекомендуем изменять эту настройку, если вы не уверены, каким будет результат этих изменений.";
+"blockchain_settings.sync_mode.blockchain" = "Блокчейн";
+"blockchain_settings.sync_mode.api" = "API";
+"blockchain_settings.title" = "Формат Адреса";
+
+// Backup
+
+"backup.close" = "Закрыть";
+"backup.backup_required" = "Необходима Резервная Копия";
+"backup.private_key" = "Приватный Ключ";
+
+"backup.intro.title_backup" = "Резервная Копия";
+"backup.intro.title_show" = "Показать Ключ";
+"backup.intro.subtitle" = "Приватный ключ, который будет показан далее, является единственным способом восстановления ваших средств в случае утери, кражи или поломки вашего телефона. \n\nУбедитесь, что никто не смотрит в ваш экран.\n\nЭтот ключ контролирует следующие токены: %@";
+"backup.intro.later" = "Позже";
+"backup.intro.backup_now" = "Резервная копия";
+"backup.intro.show_key" = "Показать Ключ";
+
+"backup.words.confirmation_description" = "Введите слова из вашего %@ ключа";
+
+"backup.birthday_height" = "Блок создания";
+
+"error.send.self_transfer" = "Отправка самому себе невозможна";
+"error.send_ethereum.wrong_parameters" = "Неверные параметры";
+"error.send_binance.memo_required" = "При отправке транзакции получателю необходимо заполнить поле мемо";
+"error.send_binance.only_digits_allowed" = "Поле мемо должно содержать только цифры";
+"error.send_z_cash.transparent_address" = "Unstoppable не поддерживает платежи на публичный адрес";
+"error.incubed_not_reachable" = "Сервера Incubed недоступны";
+
+"backup.confirmation.title" = "Проверка...";
+
+"words_validator.empty_words" = "Введены не все слова";
+"words_validator.invalid_confirmation" = "Введенные слова не совпадают";
+
+// Balance
+
+"balance.title" = "Баланс";
+"balance.tab_bar_item" = "Баланс";
+"balance.send" = "Отправить";
+"balance.swap" = "Обменять";
+"balance.deposit" = "Получить";
+"balance.rate_per_coin" = "%@ за %@";
+"balance.syncing" = "Синхронизация...";
+"balance.searching" = "Поиск транзакций...";
+"balance.searching.count" = "%@ tx";
+"balance.syncing_percent" = "Синхронизация... %@";
+"balance.synced_through" = "до %@";
+"balance.add_coin" = "Добавить Токены";
+"balance.sort.header" = "Сортировать по";
+"balance.sort.valueHighToLow" = "Балансу";
+"balance.sort.az" = "Названию";
+"balance.sort.24h_change" = "Цене(%) за 24 ч";
+"balance_error.change_source" = "Сменить Источник";
+"balance_error.sync_error" = "Ошибка Синхронизации";
+"lost_accounts.warning_title" = "Ошибка связки ключей iOS";
+"lost_accounts.warning_message" = "Зашифрованные данные вашего кошелька были недавно аннулированы, поскольку ваш экран блокировки iOS был изменен";
+// Deposit
+
+"deposit.receive_coin" = "Получить %@";
+"deposit.your_address" = "Ваш Адрес";
+"receive_alert.not_backed_up_description" = "Вам нужно сделать резервную копию %@ Кошелька, прежде чем вы сможете получать %@.";
+
+// Send
+
+"send.title" = "Отправить %@";
+"send.amount_placeholder" = "Сумма";
+"send.address_placeholder" = "Адрес";
+"send.address_or_domain_placeholder" = "Адрес или домен";
+"send.fee" = "Комиссия";
+"send.estimated_fee" = "Предполагаемая Комиссия";
+"send.max_fee" = "Макс. Комиссия";
+"send.tx_speed" = "Комиссия за транзакцию";
+"send.tx_speed_low" = "Низкая";
+"send.tx_speed_medium" = "Средняя";
+"send.tx_speed_recommended" = "Рекомендовано";
+"send.tx_speed_high" = "Высокая";
+"send.tx_speed_custom" = "Индивидуальная";
+"send.tx_duration" = "Продолжительность";
+"send.duration.instant" = "Мгновенно";
+"send.duration.within" = "в течение %@";
+"send.duration.hours" = "%d ч.";
+"send.duration.minutes" = "%d мин.";
+"send.available_balance" = "Доступный Баланс";
+"send.max_button" = "Макс.";
+"send.next_button" = "Далее";
+"send.error.invalid_address" = "Неверный Адрес";
+"send.hodler_locktime" = "TimeLock";
+"send.hodler_locktime_hour" = "1 час";
+"send.hodler_locktime_month" = "1 месяц";
+"send.hodler_locktime_half_year" = "6 месяцев";
+"send.hodler_locktime_year" = "1 год";
+"send.hodler_locktime_off" = "Выкл.";
+"send.hodler_error.unsupported_address" = "Блокировка по времени работает только с адресами P2PKH (начиная с 1)";
+"send.fee_info.title" = "Скорость транзакции";
+"send.fee_info.description" = "При использования блокчейнов Bitcoin и Ethereum пользователи должны платить комиссию при отправке транзакций.\n\nUnstoppable использует общественные сервисы оценки сумм комиссионных сборов, чтобы помогать пользователю определять размеры соответствующих комиссий на данный момент. Размеры комиссий возрастают при совершении большого количества транзакций и понижаются при меньшей занятости блокчейна.";
+"send.fee_info.header_slow" = "Медленно";
+"send.fee_info.content_slow" = "Выбор значения из данного диапазона может привести к откладыванию транзакции на некоторое время или ее полному отклонению. Чем меньше размер транзакции, тем дольше займет процесс ее подтверждения.";
+"send.fee_info.header_average" = "Умеренно";
+"send.fee_info.content_average" = "Обычно для этого диапазона комиссий характерна обработка транзакций в течение нескольких минут/часа для Bitcoin и в течение нескольких минут для Ethereum.";
+"send.fee_info.header_fast" = "Быстро";
+"send.fee_info.content_fast" = "В случае с приоритетными транзакциями лучше всего использовать настройку высокой комиссии. При выборе высокой комиссии транзакция Bitcoin будет обработана в течение 10 минут, ну а транзакция Ethereum будет обработана еще быстрее.";
+"send.fee_info.content_conclusion" = "Кошелек Unstoppable делает обоснованное предположение на основе сетевой активности и не может гарантировать, что предлагаемые значения комиссии всегда будут давать желаемый результат.";
+
+"send.confirmation.domain" = "Домен";
+"send.confirmation.address" = "Адрес";
+"send.confirmation.account" = "Account";
+"send.confirmation.memo_placeholder" = "Memo";
+"send.confirmation.total" = "Всего";
+"send.confirmation.send_button" = "Отправить";
+"send.amount_error.balance" = "Баланс %@";
+"send.amount_error.maximum_amount" = "Макс. сумма %@";
+"send.amount_error.minimum_amount" = "Мин. сумма %@";
+"send.amount_error.min_required_balance" = "Мин. обязательный остаток %@";
+"send.token.insufficient_fee_alert" = "Комиссии за транзакцию %@ (%@) взимаются в %@. Вам нужно %@.";
+
+"send.lock_time" = "TimeLock";
+
+// CoinSelector
+
+"choose_coin.title" = "Выберите Токен";
+
+// Swap
+
+"swap.title" = "Обменять";
+"swap.you_pay" = "Платите";
+"swap.estimated" = "приблизительно";
+"swap.balance" = "Баланс";
+"swap.allowance" = "Разрешение";
+"swap.you_get" = "Получите";
+"swap.token" = "Выбрать";
+"swap.advanced_settings" = "Дополнительные Настройки";
+"swap.proceed_button" = "Далее";
+"swap.approve.title" = "Разрешение Обмена";
+"swap.approve.description" = "Вы должны предоставить разрешение на смарт-контракт для того, чтобы обменивать указанный токен от вашего имени. Это разрешение определяет сумму, которая может быть использована по смарт-контракту. Это не повлияет на ваш баланс, но для подтверждения транзакции будет взята небольшая комиссия за ее выполнение.\n\nРазрешение можно запрашивать перед каждой сделкой, но дешевле заранее утвердить более высокую сумму для будущих операций.";
+"swap.approve.amount_error.already_approved" = "У вас уже есть разрешение на эту сумму";
+"swap.approving_button" = "Подтверждение...";
+"swap.amount_error.maximum_amount" = "Баланс %@";
+"swap.amount_error.no_balance" = "Ошибка анализа баланса для токена";
+"swap.trade_error.not_found" = "Невозможно обменять эти токены";
+"swap.error.insufficient_fee_alert" = "Комиссии за транзакцию взимаются в %@. Вам требуется %@.";
+"swap.button_error.insufficient_balance" = "Недостаточный баланс";
+"swap.button_error.impact_too_high" = "Высокое отклонение цены";
+
+"swap.price" = "Цена";
+"swap.price_impact" = "Отклонение от рын. цены";
+"swap.max_min" = "Макс / Мин";
+"swap.maximum_paid" = "Максимальная Выплата";
+"swap.minimum_got" = "Минимальная Выплата";
+
+// Swap Advanced Settings
+
+"swap.advanced_settings.slippage" = "Допустимость Отклонений";
+"swap.advanced_settings.slippage.footer" = "Ваша транзакция будет отменена, если цена изменится в неблагоприятную сторону более, чем на этот процент";
+"swap.advanced_settings.deadline" = "Срок Транзакции";
+"swap.advanced_settings.deadline.footer" = "Ваша транзакция будет отменена, если перевод займет больше указанного срока.";
+"swap.advanced_settings.recipient.footer" = "После операции обмена сумма будет переведена на указанный адрес";
+"swap.advanced_settings.deadline_minute" = "%@ мин";
+"swap.advanced_settings.recipient_address" = "Адрес Получателя";
+"swap.advanced_settings.error.lower_slippage" = "Ваша транзакция, скорее всего, не удастся.";
+"swap.advanced_settings.error.higher_slippage" = "Макс. допустимое значение %@%%.";
+"swap.advanced_settings.error.invalid_address" = "Неверный адрес";
+"swap.advanced_settings.error.invalid_slippage" = "Неверное Отклонение";
+"swap.advanced_settings.error.invalid_deadline" = "Недопустимый срок";
+
+"swap.fee" = "Комиссия за обмен";
+"swap.transactions_speed" = "Скорость Транзакции";
+"swap.transaction_fee" = "Комиссия за транзакцию";
+
+"swap.select_token.title" = "Выберите Токен";
+
+// Swap Approving
+
+"swap.approve.subtitle" = "Обмен";
+
+// Swap Confirmation
+
+"swap.confirmation.swap_button" = "Обменять";
+"swap.confirmation.pay" = "Оплатить %@";
+"swap.confirmation.get" = "Получить %@";
+
+
+"swap.uniswap_info.title" = "Uniswap v.2";
+"swap.uniswap_info.description" = "Данный сервис обмена работает при поддержке Uniswap - децентрализированного протокола обмена токенов, основанного на блокчейне Ethereum.\n\nСервис Uniswap полностью автоматизирован и управляется смарт-контрактами, которые надежным способом упрощают обмен токенами без каких-либо средств мошенничества.";
+"swap.uniswap_info.link_button" = "Веб-сайт Uniswap";
+
+"swap.uniswap_info.header_uniswap_related" = "О Uniswap";
+"swap.uniswap_info.header_allowance" = "Разрешение";
+"swap.uniswap_info.content_allowance" = "Сумма в некоторых валютах, которую Uniswap может потратить от вашего имени при выполнении обмена токенов. Может потребоваться разрешение на использование достаточной суммы перед обменом.";
+"swap.uniswap_info.header_price_impact" = "Отклонение от рын. цены";
+"swap.uniswap_info.content_price_impact" = "Ожидаемое отклонение цены от указанной цены, обычно увеличивается при увеличении суммы обмена.";
+"swap.uniswap_info.header_swap_fee" = "Комиссия за обмен";
+"swap.uniswap_info.content_swap_fee" = "Плата за услугу обмена на платформе Uniswap, показана в валюте, в которой продает пользователь. Для большинства заказов составляет или 0,3% или 0,6%.";
+"swap.uniswap_info.header_guaranteed_amount" = "Гарантированная Сумма";
+"swap.uniswap_info.content_guaranteed_amount" = "Минимальная сумма, которую получит пользователь в результате обмена.";
+"swap.uniswap_info.header_maximum_spend" = "Максимальная Трата";
+"swap.uniswap_info.content_maximum_spend" = "Максимальная сумма, которую получит пользователь в результате обмена.";
+
+"swap.uniswap_info.header_other" = "Другое";
+"swap.uniswap_info.header_transaction_fee" = "Комиссия за транзакцию";
+"swap.uniswap_info.content_transaction_fee" = "Примерная стоимость услуги по обработке данной транзакции на блокчейне Ethereum. Стоимость транзакций, связанных с Uniswap, обычно выше, чем стоимость транзакций по передаче обычных токенов.";
+"swap.uniswap_info.header_transaction_speed" = "Скорость Транзакции";
+"swap.uniswap_info.content_transaction_speed" = "Обработка транзакций с более высокой комиссией будет ускорена. Также вено и обратное.";
+
+// Market
+
+"market.tab_bar_item" = "Markets";
+"market.title" = "Markets";
+"market.category.overview" = "Overview";
+"market.category.discovery" = "Discovery";
+"market.category.watchlist" = "Watchlist";
+"market.total_market_cap" = "Total\nMarket Cap";
+"market.24h_volume" = "24h Volume";
+"market.btc_dominance" = "BTC Dominance";
+"market.defi_cap" = "DeFi Cap";
+"market.defi_tvl" = "TVL in DeFi";
+
+"market.sync_error" = "Sync Error";
+
+"market.top.section.header.see_all" = "See All";
+"market.top.section.header.top_gainers" = "Top Gainers";
+"market.top.section.header.top_losers" = "Top Losers";
+"market.top.section.header.top_volume" = "Top By Volume";
+"market.top.volume.title" = "Vol";
+"market.top.market_cap.title" = "MCap";
+
+"market.market_field.mcap" = "MCap";
+"market.market_field.vol" = "Vol";
+"market.market_field.price" = "Price";
+
+"market.sort_by" = "Sort By";
+"market.changes" = "Changes";
+
+"market.top.highest_cap" = "Highest Cap";
+"market.top.lowest_cap" = "Lowest Cap";
+"market.top.highest_volume" = "Highest Volume";
+"market.top.lowest_volume" = "Lowest Volume";
+"market.top.top_gainers" = "Top Gainers";
+"market.top.top_losers" = "Top Losers";
+
+"market.top.period_1h" = "1 hour";
+"market.top.period_24h" = "24 hours";
+"market.top.period_day_start" = "Day Start";
+"market.top.period_one_day" = "1 day";
+"market.top.period_one_week" = "1 неделя";
+"market.top.period_one_month" = "1 month";
+"market.top.period_one_year" = "1 год1 year";
+
+"market_discovery.filter_title.rated" = "Rated";
+"market_discovery.filter_title.blockchain" = "Blockchains";
+"market_discovery.filter_title.dexes" = "DEXes";
+"market_discovery.filter_title.lending" = "Lending";
+"market_discovery.filter_title.privacy" = "Privacy";
+"market_discovery.filter_title.scaling" = "Scaling";
+"market_discovery.filter_title.oracles" = "Oracles";
+"market_discovery.filter_title.prediction_markets" = "Prediction";
+"market_discovery.filter_title.yield_aggregators" = "Yield Aggregators";
+"market_discovery.filter_title.fiat_stablecoins" = "Fiat Stablecoins";
+"market_discovery.filter_title.algo_stablecoins" = "Algo Stablecoins";
+"market_discovery.filter_title.tokenized_bitcoin" = "Tokenized Bitcoin";
+"market_discovery.filter_title.stablecoin_issuers" = "Stablecoin Issuers";
+"market_discovery.filter_title.exchange_tokens" = "Exchange Tokens";
+"market_discovery.filter_title.metals" = "Metals";
+"market_discovery.filter_title.risk_management" = "Risk Management";
+"market_discovery.filter_title.wallets" = "Wallets";
+"market_discovery.filter_title.synthetics" = "Synthetics";
+"market_discovery.filter_title.index_funds" = "Index Funds";
+"market_discovery.filter_title.nft" = "NFT";
+"market_discovery.filter_title.fundraising" = "Fundraising";
+"market_discovery.filter_title.gaming" = "Gaming";
+"market_discovery.filter_title.b2b" = "B2B";
+"market_discovery.filter_title.infrastructure" = "Infrastructure";
+"market_discovery.filter_title.staking_eth_2_0" = "Staking ETH 2.0";
+"market_discovery.filter_title.governance" = "Governance";
+"market_discovery.filter_title.cross_chain" = "Cross Chain";
+"market_discovery.filter_title.computing" = "Computing";
+
+"market_discovery.filter_description.rated" = "Rated based on security, volume and distribution.";
+"market_discovery.filter_description.blockchain" = "Native cryptocurrencies on major blockchains.";
+"market_discovery.filter_description.dexes" = "Decentralized cryptocurrency exchanges.";
+"market_discovery.filter_description.lending" = "Protocols for lending and borrowing.";
+"market_discovery.filter_description.privacy" = "Projects working on privacy solutions.";
+"market_discovery.filter_description.scaling" = "Solutions for faster blockchain transactions.";
+"market_discovery.filter_description.oracles" = "Connecting real world data to smart contracts.";
+"market_discovery.filter_description.prediction_markets" = "Markets to bet on events in the future.";
+"market_discovery.filter_description.yield_aggregators" = "Solutions for earning from idle crypto assets.";
+"market_discovery.filter_description.fiat_stablecoins" = "Crypto tokens pegged 1-1 to fiat currency.";
+"market_discovery.filter_description.algo_stablecoins" = "Stablecoins with algorithmic 1-1 price peg to fiat.";
+"market_discovery.filter_description.tokenized_bitcoin" = "Crypto tokens pegged 1-1 to Bitcoin price.";
+"market_discovery.filter_description.stablecoin_issuers" = "Decentralized issuers of fiat pegged stablecoin tokens.";
+"market_discovery.filter_description.exchange_tokens" = "Tokens issued by centralized exchanges.";
+"market_discovery.filter_description.metals" = "Tokens pegged to metal prices.";
+"market_discovery.filter_description.risk_management" = "Risk assessment, insurance and hedging.";
+"market_discovery.filter_description.wallets" = "Tokens issued by cryptocurrency wallets.";
+"market_discovery.filter_description.synthetics" = "Platforms for creating decentralized synthetic assets.";
+"market_discovery.filter_description.index_funds" = "Assets that pegged in price to a set of tokens.";
+"market_discovery.filter_description.nft" = "Marketplaces for NFT tokens.";
+"market_discovery.filter_description.fundraising" = "Fundraising and token sale platforms.";
+"market_discovery.filter_description.gaming" = "Crypto projects in gaming and VR sector.";
+"market_discovery.filter_description.b2b" = "B2B service providers.";
+"market_discovery.filter_description.infrastructure" = "Projects building infrastructure solutions.";
+"market_discovery.filter_description.staking_eth_2_0" = "Protocols that reward liquidity providers.";
+"market_discovery.filter_description.governance" = "Decentralized governance protocols for DAOs.";
+"market_discovery.filter_description.cross_chain" = "Cross-chain protocols.";
+"market_discovery.filter_description.computing" = "Decentralized on-demand computing solutions.";
+
+"market_watchlist.empty.caption" = "You don’t have any favorite assets.\n You can add the favorites by clicking on star icon in the asset page";
+// Transactions
+
+"transactions.title" = "Транзакции";
+"transactions.tab_bar_item" = "Транзакции";
+"transactions.filter_all" = "Все";
+"transactions.empty_text" = "У вас ещё нет незавершенных или прошлых транзакций";
+"transactions.pending" = "В обработке";
+"transactions.receiving" = "Получение";
+"transactions.failed" = "Не удалось";
+"transactions.sending" = "Отправка";
+"transactions.approval" = "Подтверждение обмена";
+
+// Transaction Info
+
+"tx_info.title" = "Транзакция";
+"tx_info.title_approval" = "Подтверждение обмена";
+"tx_info.status.pending" = "В обработке";
+"tx_info.status.confirmed" = "Подтверждено";
+"tx_info.status.failed" = "Не удалось";
+"tx_info.from_hash" = "От";
+"tx_info.transaction_id" = "ID Транзакции";
+"tx_info.to_hash" = "Кому";
+"tx_info.input" = "Ввод";
+"tx_info.button_explorer" = "Посмотреть на %@";
+"tx_info.rate" = "Исторический Курс";
+"tx_info.fee" = "Комиссия";
+"tx_info.to_self_note" = "Данная транзакция отправлена на собственный адрес";
+"tx_info.double_spent_note" = "Риск Двойной Траты!";
+"tx_info.locked_until" = "Заблокировано до %@";
+"tx_info.unlocked_at" = "Разблокировано %@";
+"tx_info.recipient_hash" = "Получатель";
+"tx_info.raw_transaction" = "Неподтвержденная Транзакция";
+"tx_info.memo" = "Memo";
+
+// Settings
+
+"settings.title" = "Настройки";
+"settings.tab_bar_item" = "Настройки";
+"settings.security_center" = "Центр Безопасности";
+"settings.manage_accounts" = "Управление Кошельками";
+"settings.manage_coins" = "Управление Токенами";
+"settings.experimental_features" = "Экспериментальные Функции";
+"settings.notifications" = "Уведомления";
+"settings.base_currency" = "Базовая Валюта";
+"settings.language" = "Язык";
+"settings.faq" = "FAQ";
+"settings.light_mode" = "Светлый Режим";
+"settings.info_title" = "UNSTOPPABLE";
+"settings.info_subtitle" = "децентрализованное приложение";
+
+// Settings -> Notifications
+
+"settings_notifications.title" = "Уведомления";
+"settings_notifications.toggle_title" = "Push-уведомления";
+"settings_notifications.description" = "Установите уведомления об изменении курса отслеживаемых вами монет.\n\nВы получите уведомление, когда изменение курса за последние 24 часа превысит выбранный порог.\n\n Уведомление о тенденции цен предупреждает об изменениях в движении цен в краткосрочной перспективе (1 неделя), и долгосрочной перспективе (6 месяцев).";
+"settings_notifications.alert_off" = "Выкл.";
+"settings.notifications.deactivate_all" = "Отключить всё";
+"settings.notifications.disabled_text" = "Уведомления для приложения Unstoppable Wallet отключены. Чтобы получать уведомления об изменении цен, вам нужно включить уведомления и разрешить запуск приложения в фоновом режиме.";
+"settings.notifications.settings_button" = "Включить в настройках";
+"settings_notifications.trend_short" = "Краткосрочно 7Д";
+"settings_notifications.trend_long" = "Долгосрочно 6М";
+"settings_notifications.reset_all_title" = "Сбросить всё";
+"settings_notifications.trend_settings_title" = "Тенденция Цен";
+
+// Settings -> Manage Wallet
+
+"manage_coins.title" = "Выбрать";
+"manage_coins.add_token" = "Добавить Токен";
+"manage_coins.search" = "Поиск";
+"manage_coins.add_coin.title" = "Добавить %@";
+"manage_coins.add_coin.subtitle" = "%@ Кошелек";
+"manage_coins.add_coin.text.set_up" = "Вам нужно настроить кошелек %@, чтобы отправлять или получать %@.";
+"manage_coins.add_coin.text.create_or_restore" = "Используйте кнопку \"Создать\", чтобы настроить новый кошелек %@ или \"Восстановить\", чтобы импортировать существующий.";
+"manage_coins.add_coin.text.create_only" = "На данный момент Unstoppable не может создать новый %@ кошелек. Вы можете только восстановить существующий.";
+"manage_coins.add_coin.text.tokens" = "Вы сможете использовать этот кошелек для: %@.";
+"manage_coins.add_coin.create" = "Создать";
+"manage_coins.add_coin.restore" = "Восстановить";
+
+// Settings -> Experimental Features
+
+"settings.experimental_features.title" = "Экспериментальные Функции";
+"settings.experimental_features.description" = "Функции ниже являются экспериментальными. Несмотря на то, что мы детально их протестировали, используя наши собственные криптосредства, мы не можем гарантировать, что они всегда будут работать так, как предусмотрено.";
+"settings.experimental_features.bitcoin_hodling" = "TimeLock";
+
+// Settings -> Experimental Features -> Bitcoin HODLing
+
+"settings.bitcoin_hodling.title" = "TimeLock";
+"settings.bitcoin_hodling.lock_time" = "Активировать";
+"settings.bitcoin_hodling.description" = "Позволяет отправлять биткойны, которые могут быть потрачены только после указанной даты.\n\nПолучатель такой транзакции должен использовать версию 0.10 приложения Unstoppable Wallet или же более новую версию с форматом адреса BIP44 для Bitcoin.\n\nТолько кошелек Unstoppable может правильно распознать и обработать такие транзакции в сети Bitcoin, и позволить получателю тратить эти биткойны по истечении периода блокировки.\n\nЕсли вы HODLer (долгосрочный инвестор), то вы можете использовать эту функцию для удержания своих биткойнов, отправив их себе. \n\nТак как это экспериментальная функция, максимальная сумма транзакции ограничена 0,5 BTC.";
+
+// Settings -> Terms
+
+"terms.title" = "Условия Использования";
+"terms.description" = "Кошелек Unstoppable предназначен для тех, кто хочет инвестировать и хранить криптовалюты частным и независимым образом.
+
+Это некастодиальный децентрализованный кошелек, в котором только пользователь может контролировать свои средства. Кошелек не собирает какие-либо данные и позволяет пользователю сохранять независимость, не завязывая учетную запись под одно приложение-кошелек.
+
+Кошелек Unstoppable имеет открытый исходный программный код, и любой может убедиться в том, что приложение работает должным образом.
+
+Мы создали кошелек Unstoppable для себя, так как доступные в сети решения не предлагают необходимый функционал на должном уровне. С точки зрения инженерии и простоты использования, мы считаем, что этот кошелек значительно опережает альтернативные продукты.";
+"terms.item.academy" = "Я зашел в раздел \"Академия\" в этом приложении и ознакомился с базовыми аспектами хранения криптовалют.";
+"terms.item.backup" = "Я создал резервную копию приватного ключа (-ей) для своих кошельков, показанных мне в виде 12-24 слов. Я понимаю, что эти приватные ключи хранятся на моем смартфоне, а не в другом месте.";
+"terms.item.owner" = "Я понимаю, что только владелец моего приватного ключа(-ей) может получить доступ к моему кошельку и потратить доступные в нем средства, и поэтому эти ключи никогда не должны передаваться посторонним людям.";
+"terms.item.recover" = "Я понимаю, что в случае если я потеряю телефон или не будет работать приложение, для восстановления доступа к моим средствам мне понадобятся приватные ключи. Я не смогу восстановить доступ к моему кошельку без персональных ключей.";
+"terms.item.phone" = "Я понимаю, что передача моего телефона ненадежным лицам или оставление кошелька без безопасной блокировки с помощью PIN-кода может поставить под угрозу безопасность моих средств.";
+"terms.item.root" = "Я понимаю, что джейлбрейк (или рутинг) моего телефона, установка приложений из неизвестных источников и устаревшая операционная система могут поставить под угрозу безопасность моих средств.";
+"terms.item.bugs" = "Я понимаю, что в коде этого кошелька могут быть необнаруженные проблемы с программным обеспечением, что может привести к неожиданному поведению или сбоям в работе приложения.";
+"terms.item.pin" = "Я понимаю, что отключение секретного кода разблокировки телефона в Настройках iOS удалит приватные ключи кошелька с моего устройства. Мне понадобятся приватные ключи для восстановления доступа к моему кошельку.";
+"terms.footer" = "Благодарим вас за выбор данного кошелька!";
+
+// Settings -> Tell Friends
+
+"settings_tell_friends.text" = "👋️Здравствуйте! Познакомьтесь с Unstoppable - моим любимым криптокошельком.";
+
+// Settings -> Security
+
+"settings_security.title" = "Центр Безопасности";
+"settings_security.blockchain_settings" = "Настройки Блокчейна";
+"settings_security.passcode" = "Код Доступа";
+"settings_security.privacy" = "Приватность";
+"settings_security.change_pin" = "Изменить Код";
+"settings_security.touch_id" = "Touch ID";
+"settings_security.face_id" = "Face ID";
+"security_settings.delete_alert_button" = "Удалить с Телефона";
+"settings_privacy.title" = "Приватность";
+"settings_privacy.header_description" = "Это приложение не передает ваши данные, но, поскольку оно связывается с блокчейнами, возможна потенциальная утечка некоторых общедоступных данных, таких как IP-адрес. Используйте кнопку \"Информация\" в правом верхнем углу для получения более подробной информации о каждом разделе.";
+"settings_privacy.sorting_title" = "Входы/Выходы";
+"settings_privacy.sorting.section_header" = "Tранзакции Блокчейна";
+"settings_privacy.sorting.section_footer" = "Поменяйте способ структурирования транзакций, чтобы затруднить отслеживание ваших операций с BTC, LTC, BCH.";
+"settings_privacy.connection.section_header" = "Синхронизация Блокчейна";
+"settings_privacy.connection.section_footer" = "Некоторые блокчейны всё еще не разработали инфраструктуру для работы мобильных приложений в пиринговом режиме (P2P). Работа с блокчейнами BTC, BCH, LTC, DASH проходит полностью в режиме P2P.";
+"settings_privacy.sync.section_header" = "Восстановить Блокчейн";
+"settings_privacy.sync.section_footer" = "Выберите источник данных для восстановления кошелька с транзакциями.";
+
+"settings_privacy_info.title" = "Настройки Приватности";
+"settings_privacy_info.description" = "Ниже вы найдете подробное описание доступных в приложении настроек конфиденциальности. Эти настройки предназначены для тех, кому нужна полная конфиденциальность.";
+"settings_privacy_info.header_blockchain_transactions" = "Tранзакции Блокчейна";
+"settings_privacy_info.content_blockchain_transactions" = "Этот параметр контролирует уровень конфиденциальности пользовательских транзакций в блокчейнах Bitcoin, Bitcoin Cash и Litecoin.\n\nБольшинство транзакций с биткойнами генерируют два выхода. Один - сумма для отправки получателю, а другой - сдача для возврата отправителю. Особенности создания транзакций большинством кошельков позволяют третьей стороне отслеживать блокчейн Bitcoin на предмет того, какая из этих двух сумм была отправлена принимающей стороне, и какая сумма была возвращена отправителю. Возвращенная отправителю сумма может быть позже использована в будущих сделках и для дальнейшего раскрытия сведений контролирующей стороне.\n\nКошелек Unstoppable принимает меры для затруднения идентификации направлений отправки этих двух сумм. Для пользователей Unstoppable доступны две опции:\n\n1. Перемешивание: Рандомизируется порядок выхода каждой транзакции. Иногда сдача может отправляться первой, а иногда второй. Если вы доверяете разработчику приложения, то воспользуйтесь рекомендуемым вариантом.\n\n2. Детерминистский подход: существует общепринятый стандарт заказа выходов транзакций (именуемый BIP69). Используя стандартные кошельки с открытым исходным кодом, пользователи не должны волноваться о том, как разработчики приложения реализуют выходы. Так как это новый стандарт, он еще не реализован во многих кошельках. В результате, пока что в блокчейн можно увидеть, была ли отправлена транзакция из кошелька, который использует этот стандарт или нет.";
+"settings_privacy_info.header_blockchain_connection" = "Синхронизировать блокчейн";
+"settings_privacy_info.content_blockchain_connection" = "This setting controls how this app interacts with blockchains (sending/receiving transactions). In case of Bitcoin, Bitcoin Cash, Litecoin and Dash it is fully peer to peer. The app pings many nodes and communicates with them. Potentially these nodes can record IP address and data requested but since they are chosen randomly, each time the app connects to a different node.\n\nIn case of Ethereum, there is no alternative for mobile wallets to interact with blockchain other than via third party providers (i.e. Infura.io) or personal Ethereum nodes. Third party services can potentially record IP addresses and the requests made. That info can reveal location, balance, transactions etc. Moreover, the wallet has to trust that information returned is correct. There is a an alternative known as Incubed which in essence is a network of special Ethereum nodes. These nodes can also record IP addresses and requests made, but they are chosen randomly each time. While being slightly slower than Infura, the way Incubed works pretty much guarantees that the information returned is correct (not fake).\n\nWhen it comes to other blockchains like EOSIO and Binance Chain, at this point they only provide centralized means of connecting, without viable alternatives. Potentially they can be recording IP addresses and requests made.";
+"settings_privacy_info.header_blockchain_restore" = "Восстановить блокчейн";
+"settings_privacy_info.content_blockchain_restore" = "Этот параметр актуален только при восстановлении существующего кошелька. Это процесс получения истории транзакций для данной монеты, чтобы приложение кошелька могло отображать предыдущие транзакции и определять последний баланс. Это должно произойти только один раз при восстановлении пользователем ранее созданного кошелька. На данный момент у такого мобильного кошелька, как Unstoppable, есть два возможных способа для реализации этого вопроса: \n\n1. С сервера API: существует предопределенный сторонний сервер, на котором размещается вся цепочка блоков, происходит обработка всех данных и их подготовка к быстрому предоставлению. Это быстрый метод, однако он предполагает потенциальное отслеживание IP-адресов и запрашиваемых данных. Этот вариант рекомендуется использовать из-за скорости получения данных (5-10 минут). Он сопряжен с минимальными рисками. Если пользователь восстанавливает данные со своего собственного сервера, то нет никакой угрозы конфиденциальности.\n\n2. Из блокчейна: в этом случае приложение пытается восстановить данные напрямую из p2p-сети узлов блокчейна. Приложение пингует многие из этих узлов и запрашивает у них данные. Потенциально эти узлы могут отслеживать IP-адрес пользователя и сделанные запросы, однако во время восстановления данных приложение может переключаться между узлами. В любое время в сети находится около 10 000 биткойн-узлов. Это медленный вариант обработки данных, она может занять 2-3 часа и приложение должно быть открыто во время их восстановления...";
+
+"settings_privacy.alert_sync.title" = "Источник Восстановления";
+"settings_privacy.alert_sync.description" = "После вступления данного изменения в силу кошелек должен будет повторно синхронизироваться с блокчейном %@.";
+"settings_privacy.alert_sync.recommended" = "Рекомендуется";
+"settings_privacy.alert_sync.more_private" = "Более Приватно";
+
+"settings_privacy.alert_connection.title" = "Синхронизация Блокчейна";
+
+"settings_privacy.alert_sort.title" = "Tранзакции Блокчейна";
+"settings_privacy.alert_sort.subtitle" = "Входы/Выходы";
+"settings_privacy.sorting_default" = "По умолчанию";
+"settings_privacy.sorting_default.description" = "Без настроек";
+"settings_privacy.sorting_shuffle" = "Перемешать";
+"settings_privacy.sorting_shuffle.description" = "Случайное Индексирование";
+"settings_privacy.sorting_bip69" = "Детерминированный BIP69";
+"settings_privacy.sorting_bip69.description" = "Лексикографическая Индексация";
+
+// Manage Keys
+
+"settings_manage_keys.title" = "Кошельки";
+"settings_manage_keys.item_title" = "%@ Кошелек";
+"settings_manage_keys.add_wallet" = "Добавить Кошелёк";
+"settings_manage_keys.description" = "Ниже выделены ваши активные кошельки, каждый кошелек отвечает за разный набор криптовалют.\n\nВы должны сделать резервную копию каждого выделенного кошелька, записав его персональный ключ. Приватный ключ – единственный способ восстановления ваших средств в случае утери, кражи или поломки вашего телефона.";
+"settings_manage_keys.delete" = "Удалить";
+"settings_manage_keys.backup" = "Резервная копия";
+"settings_manage_keys.show" = "Показать Ключ";
+"settings_manage_keys.create" = "Создать";
+"settings_manage_keys.restore" = "Восстановить";
+"settings_manage_keys.settings" = "Формат Адреса";
+"settings_manage_keys.delete.cant_delete" = "Вам нужно сделать резервную копию приватного ключа для этого кошелька, прежде чем он будет удален с этого телефона.";
+"settings_manage_keys.delete.title" = "Удалить Кошелек";
+"settings_manage_keys.delete.confirmation_remove" = "Это действие удалит ваш %@ кошелек с этого устройства.";
+"settings_manage_keys.delete.confirmation_disable" = "Токены, которые будут отключены: %@";
+"settings_manage_keys.delete.confirmation_loose" = "Если вы не сделали резервную копию приватного ключа для этого кошелька, вы потеряете доступ к вашим средствам.";
+
+// Settings -> About App
+
+"settings.about_app.title" = "Информация о приложении";
+"settings.about_app.app_name" = "Unstoppable Кошелек";
+"settings.about_app.website" = "Website";
+"settings.about_app.contact" = "Contact";
+"settings.about_app.rate_us" = "Оцените наше приложение";
+"settings.about_app.tell_friends" = "Рассказать Друзьям";
+"settings.about_app.email_copied" = "Адрес электронной почты скопирован";
+
+// Set PIN
+
+"set_pin.title" = "Код Доступа";
+"set_pin.info" = "Код доступа будет использоваться для разблокировки вашего кошелька";
+"set_pin.wrong_confirmation" = "Код доступа не совпадает. Попробуйте ещё раз";
+
+// Edit PIN
+
+"edit_pin.title" = "Изменить Код";
+"edit_pin.unlock_info" = "Текущий Код";
+"edit_pin.new_pin_info" = "Новый Код";
+
+// Unlock PIN
+
+"unlock_pin.info" = "Код Доступа";
+"unlock_pin.cant_save_pin" = "Ой! Мы не можем сохранить ваш код доступа. Пожалуйста, свяжитесь с нами как можно скорее!";
+"unlock_pin.blocked_until" = "Отключено до: %@";
+
+// Rate List
+
+"rate_list.portfolio" = "Портфель";
+"rate_list.latest_news" = "Последние Новости";
+"top100_list.portfolio" = "ТОП-100";
+"top100_list.sort_by" = "Сортировать по";
+"top100_list.sort_type.rank" = "Рейтинг";
+"top100_list.sort_type.top_winners" = "Топ Победителей";
+"top100_list.sort_type.top_losers" = "Топ Проигравших";
+
+//NumPad
+
+"numpad_2" = "А Б В Г";
+"numpad_3" = "Д Е Ж З";
+"numpad_4" = "И Й К Л";
+"numpad_5" = "М Н О П";
+"numpad_6" = "Р С Т У";
+"numpad_7" = "Ф Х Ц Ч";
+"numpad_8" = "Ш Щ Ъ Ы";
+"numpad_9" = "Ь Э Ю Я";
+
+// Key Types
+
+"chart.title" = "%@ Цена";
+"chart.time_duration.today" = "Сегодня";
+"chart.time_duration.day" = "24ч";
+"chart.time_duration.week" = "7Д";
+"chart.time_duration.week2" = "2Н";
+"chart.time_duration.month" = "1М";
+"chart.time_duration.month3" = "3М";
+"chart.time_duration.halyear" = "6М";
+"chart.time_duration.year" = "1Г";
+"chart.time_duration.year2" = "2Г";
+
+"chart.market_cap" = "Market Cap";
+"chart.market_cap.thousand" = "%@ к";
+"chart.market_cap.million" = "%@ млн.";
+"chart.market_cap.billion" = "%@ млр.";
+"chart.market_cap.trillion" = "%@ трил.";
+"chart.volume" = "Объём (за 24 ч)";
+"chart.circulation" = "В обороте";
+"chart.max_supply" = "Макс.выпуск";
+"chart.start_date" = "Дата Запуска";
+"chart.website" = "Сайт Проекта";
+"chart.error.not_available" = "График недоступен";
+"chart.selected.price" = "Цена";
+"chart.selected.volume" = "Объём";
+"chart.trend_neutral" = "Нейтральный";
+"chart.trend_down" = "Нисходящий Тренд";
+"chart.trend_up" = "Восходящий Тренд";
+
+// Create Wallet
+
+"create_wallet.title" = "Создать Кошелек";
+"create_wallet.create_button" = "Создать";
+
+// Select Coins
+
+"select_coins.choose_crypto" = "Выберите Валюту";
+"select_coins.next_button" = "Далее";
+
+"price_notification.up" = "наверх";
+"price_notification.down" = "вниз";
+"price_notification.multi_title" = "Уведомления";
+
+// Lock Info
+
+"lock_info.title" = "TimeLock";
+"lock_info.text" = "Эти средства были отправлены с временной блокировкой, которая истекает в указанную дату.\n\nНе волнуйтесь, полученные биткойны уже ваши, но до истечения периода блокировки, вы не сможете их потратить в сети Bitcoin.";
+
+// Double Spend Info
+
+"double_spend_info.title" = "Двойная Трата";
+"double_spend_info.header" = "Риск двойной траты! Существует другая транзакция в блокчейне, которая пытается использовать входные данные, используемые в этой транзакции. Только одна транзакция будет принята сетью";
+"double_spend_info.this_hash" = "Эта Транзакция";
+"double_spend_info.conflicting_hash" = "Конфликтующая Транзакция";
+
+// Relative Date
+"timestamp.days_ago" = "%luд назад";
+"timestamp.hours_ago" = "%luч назад";
+"timestamp.min_ago" = "%luмин назад";
+
+// Intro
+
+"intro.skip" = "Пропустить";
+"intro.next" = "Далее";
+"intro.brand.description" = "Храните и торгуйте криптовалютой. Полностью контролируйте свои активы. Оставайтесь анонимными.";
+"intro.independence.title" = "Будьте Независимы";
+"intro.independence.description" = "Unstoppable создан для того, чтобы пользователи могли получать доступ к средствам в любое время, в любом месте.";
+"intro.knowledge.title" = "Инвестируйте с умом";
+"intro.knowledge.description" = "В Unstoppable доступны замечательные инструменты для торговли, мониторинга и аналитики.";
+"intro.privacy.title" = "Сохраняйте Конфиденциальность";
+"intro.privacy.description" = "Используйте этот кошелек, чтобы оставаться инкогнито и иметь возможность сохранить конфиденциальность вашей информации.";
+
+// Guides
+
+"guides.tab_bar_item" = "Академия";
+"guides.title" = "Академия";
+
+// Add Token Selector
+
+"add_token_selector.choose_blockchain" = "Выбрать Блокчейн";
+"add_token_selector.add_token" = "Добавить Токен";
+"add_token_selector.erc20_token" = "Токен ERC20";
+"add_token_selector.binance_token" = "Токен BEP2";
+
+// Add Token
+
+"add_token.coin_name" = "Название Токена";
+"add_token.symbol" = "Символ";
+"add_token.decimals" = "Десятичные знаки";
+"add_token.already_exists" = "Этот токен уже есть в списке поддерживаемых токенов.";
+
+"add_erc20_token.title" = "Добавить ERC20";
+"add_erc20_token.contract_address" = "Адрес Контракта";
+"add_erc20_token.contract_not_exist" = "Контракт не найден";
+
+"add_bep2_token.title" = "Добавить BEP2";
+"add_bep2_token.token_symbol" = "Символ токена";
+"add_bep2_token.token_not_exist" = "Токен не найден";
+
+"change_24hour_up" = "%@ цена: повысилась на %@%%%@";
+"change_24hour_down" = "%@ цена: понизилась на %@%%%@";
+"trend_shortterm_up" = "краткосрочный тренд %@: вверх %@";
+"trend_shortterm_down" = "краткосрочный тренд %@: вниз %@";
+"trend_longterm_up" = "долгосрочный тренд %@: вверх %@";
+"trend_longterm_down" = "долгосрочный тренд %@: вниз %@";
+
+"chart_alert.title" = "Уведомления ";
+"chart_alert.24h_description" = "Изменение цены 24 ч";
+"chart_alert.trend_description" = "Изменение Тренда";
+
+// Wallet Connect
+
+"wallet_connect.title" = "Подключить кошелек";
+"wallet_connect.requirement" = "Требования";
+"wallet_connect.requirement.description" = "Для подключения к браузеру вам нужно активировать ethereum или любой erc20 токен во вкладке \"Баланс\"";
+"wallet_connect.error.invalid_url" = "Неверный URL-адрес";
+"wallet_connect.url" = "URL";
+"wallet_connect.connect_description" = "Нажимая \"Подтвердить\", вы разрешаете этому приложению просматривать ваш общедоступный адрес. Это важный шаг для защиты ваших данных от потенциальных рисков фишинга.";
+"wallet_connect.usage_description" = "Вы можете перейти в браузер. Не закрывайте эту страницу во время использования браузера.";
+"wallet_connect.button_disconnect" = "Отсоединить";
+"ethereum_transaction.error.insufficient_balance" = "Для отправки транзакции требуется %@.";
+"ethereum_transaction.error.insufficient_balance_with_fee" = "Текущий баланс ETH ниже суммы, необходимой для обработки этой транзакции, включая комиссию за транзакцию.";
+"wallet_connect.request_title" = "Запрос";
+
+// App Status
+
+"app_status.title" = "Статус Приложения";
+"app_status.application_status" = "Статус приложения";
+"app_status.linked_wallets" = "Связанные кошельки";
+"app_status.version_history" = "История Версий";
+"app_status.blockchain_status" = "Статус блокчейна";
+
+// FAQ
+
+"faq.title" = "FAQ";
+
+// Status Info
+
+"status_info.title" = "Статус";
+"status_info.pending.title" = "В обработке";
+"status_info.pending.content" = "Транзакция еще не подтверждена в блокчейне. Эта процедура может занять от нескольких минут до нескольких часов в зависимости от комиссии за транзакцию. Отправляемые с очень низкой комиссией транзакции обычно обрабатываются в течение нескольких дней или же могут быть отклонены сетью, отменяя это действие.";
+"status_info.receiving.title" = "Получает...";
+"status_info.receiving.content" = "Отправитель послал вам транзакцию, но она еще не завершена. В случае с крупными платежами нужно дождаться, пока статус транзакции изменится на 'обработка завершена'. Обычно этот процесс занимает около часа. Однако, может потребоваться больше времени, если отправитель послал транзакцию с низкой комиссией.";
+"status_info.confirmed.title" = "Подтверждено";
+"status_info.confirmed.content" = "Транзакция окончательна и необратима.";
+"status_info.failed.title" = "Не удалось";
+"status_info.failed.content" = "Транзакция не была обработана как планировалось, и передача токена не состоялась. На Ethereum за отклонённые транзакции взимают комиссионные сборы.";
+
+// Enable Coins
+
+"enable_coins.title" = "Активировать монеты";
+"enable_coins.description" = "Активировать все %@ монеты с любым балансом";
+"enable_coins.enable_button" = "Активировать";
+"enable_coins.enabling" = "Идет активация...";
+"enable_coins.enabled_coins" = "Активировано %@ монет";
+"enable_coins.enabled_no_coins" = "На балансе нет монет";

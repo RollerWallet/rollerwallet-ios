@@ -1,0 +1,2 @@
+"NSCameraUsageDescription" = "Необходим доступ к вашей камере для сканирования QR-код.";
+"NSFaceIDUsageDescription" = "FaceID будет использован для разблокировки кошелька.";
